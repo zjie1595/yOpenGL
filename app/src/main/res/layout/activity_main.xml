@@ -56,4 +56,10 @@
         android:layout_height="wrap_content"
         android:onClick="gotoCamera2"
         android:text="9. Camera2 预览+VBO+FBO+矩阵+水印" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotoVideo"
+        android:text="10. MediaPlayer播放视频" />
 </LinearLayout>

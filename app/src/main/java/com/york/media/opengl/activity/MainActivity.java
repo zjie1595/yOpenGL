@@ -81,4 +81,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(camera2Activity);
     }
 
+    public void gotoVideo(View view) {
+        Intent camera2Activity = new Intent(this, VideoActivity.class);
+        startActivity(camera2Activity);
+    }
 }
